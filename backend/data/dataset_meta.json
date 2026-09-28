@@ -1,0 +1,19 @@
+{
+  "sources": [
+    {
+      "name": "SKAB",
+      "file_count": 35,
+      "rows": 46860,
+      "use": "pump/flow/pressure anomaly behavior",
+      "note": "Volume Flow RateRMS is treated as flow proxy; it is not asserted to be borewell flow."
+    },
+    {
+      "name": "Pump Sensor Data",
+      "rows": 220320,
+      "columns": 55,
+      "use": "machine status / predictive maintenance behavior",
+      "note": "sensor_00..sensor_51 remain generic because uploaded data does not provide a verified semantic mapping."
+    }
+  ],
+  "demo_note": "water_level, rainfall, tank_level and flow_in are prototype/demo-derived fields, not measurements from the uploaded datasets. Replace them with ESP32 measurements when hardware is connected."
+}

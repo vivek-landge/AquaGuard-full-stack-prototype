@@ -1,0 +1,1 @@
+Dataset preprocessing was performed when this bundle was generated. The included `backend/data/demo_telemetry.csv` is the compact demo set used by the UI. Keep the original archives outside Git unless you intentionally want to version large raw datasets.
